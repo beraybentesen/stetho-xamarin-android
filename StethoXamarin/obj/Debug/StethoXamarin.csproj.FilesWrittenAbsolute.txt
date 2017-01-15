@@ -1,0 +1,6 @@
+/Users/beray/Projects/StethoXamarin/StethoXamarin/obj/Debug/MonoAndroid,Version=v6.0.AssemblyAttribute.cs
+/Users/beray/Projects/StethoXamarin/StethoXamarin/obj/Debug/StethoXamarin.obj.Debug.__AndroidLibraryProjects__.zip
+/Users/beray/Projects/StethoXamarin/StethoXamarin/bin/Debug/StethoXamarin.dll.mdb
+/Users/beray/Projects/StethoXamarin/StethoXamarin/bin/Debug/StethoXamarin.dll
+/Users/beray/Projects/StethoXamarin/StethoXamarin/obj/Debug/StethoXamarin.dll
+/Users/beray/Projects/StethoXamarin/StethoXamarin/obj/Debug/StethoXamarin.dll.mdb

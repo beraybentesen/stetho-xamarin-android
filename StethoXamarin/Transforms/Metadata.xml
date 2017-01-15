@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+	<!--
+  This sample removes the class: android.support.v4.content.AsyncTaskLoader.LoadTask:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='AsyncTaskLoader.LoadTask']" />
+  
+  This sample removes the method: android.support.v4.content.CursorLoader.loadInBackground:
+  <remove-node path="/api/package[@name='android.support.v4.content']/class[@name='CursorLoader']/method[@name='loadInBackground']" />
+  -->
+<remove-node path="/api/package[@name='com.facebook.stetho.inspector.elements']/class[@name='AbstractChainedDescriptor']/method[@name='getChildren' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.facebook.stetho.common.Accumulator&lt;java.lang.Object&gt;']]"/>
+<remove-node path="/api/package[@name='com.facebook.stetho.inspector.elements']/class[@name='ObjectDescriptor']/method[@name='getChildren' and count(parameter)=2 and parameter[1][@type='java.lang.Object'] and parameter[2][@type='com.facebook.stetho.common.Accumulator&lt;java.lang.Object&gt;']]"/>
+<remove-node path="/api/package[@name='com.facebook.stetho.inspector.network']/class[@name='ResponseHandlingInputStream']/constructor[@name='ResponseHandlingInputStream' and count(parameter)=6 and parameter[1][@type='java.io.InputStream'] and parameter[2][@type='java.lang.String'] and parameter[3][@type='java.io.OutputStream'] and parameter[4][@type='com.facebook.stetho.inspector.network.CountingOutputStream'] and parameter[5][@type='com.facebook.stetho.inspector.helper.ChromePeerManager'] and parameter[6][@type='com.facebook.stetho.inspector.network.ResponseHandler']]"/>	
+<remove-node path="/api/package[@name='com.facebook.stetho.inspector.elements']/class[@name='Descriptor']"/>
+<remove-node path="/api/package[@name='com.facebook.stetho.inspector.network']/class[@name='DownloadingAsyncPrettyPrinterFactory.Request']"/>
+<remove-node path="/api/package[@name='com.facebook.stetho.inspector.network']/class[@name='ResponseBodyFileManager.AsyncPrettyPrintingCallable']"/>
+</metadata>
