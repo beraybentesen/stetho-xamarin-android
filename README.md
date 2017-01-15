@@ -9,19 +9,28 @@ Android resource: http://facebook.github.io/stetho/
 
 Version : 1.4.2
 
-Download : Available on Nuget Gallery ( https://www.nuget.org/packages/Rebound.Xamarin/ )
+Download : Available on Nuget Gallery ( https://www.nuget.org/packages/Stetho.Xamarin/ )
 
-How do I use Rebound?
+How do I use Stetho ?
 -------------------
 
 Simple use cases :
 
 ```cs
+using Com.Facebook.Stetho;
 
 public class MainActivity : Activity
+	public class MainActivity : Activity
 	{
-    // Define in Activity
-    ...
+		protected override void OnCreate(Bundle savedInstanceState)
+		{
+			base.OnCreate(savedInstanceState);
+
+			SetContentView(Resource.Layout.Main);
+
+			Stetho.InitializeWithDefaults(this);
+		}
+	}
 
 ```
 
