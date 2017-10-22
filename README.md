@@ -7,7 +7,7 @@ Stetho is a sophisticated debug bridge for Android applications. When enabled, d
 
 Android resource: http://facebook.github.io/stetho/
 
-Version : 1.4.2
+Version : 1.5.0
 
 Download : Available on Nuget Gallery ( https://www.nuget.org/packages/Stetho.Xamarin/ )
 
